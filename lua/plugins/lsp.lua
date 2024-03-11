@@ -46,9 +46,11 @@ return {
 			-- show usages
 			vim.keymap.set("n", "gu", "<cmd>Telescope lsp_references<cr>", { desc = "GOTO: usages" })
 			-- show documentation for function under cursor
+			-- test comment
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Show: docs" })
 			-- show code actions selector
 			vim.keymap.set({ "n", "v" }, "<space>ca", vim.lsp.buf.code_action, { desc = "Code: actions" })
+			-- test comment
 		end,
 	},
 }

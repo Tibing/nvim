@@ -30,6 +30,10 @@ return {
 			lspconfig.html.setup({
 				capabilities = capabilities,
 			})
+			-- java
+			lspconfig.jdtls.setup({
+				capabilities = capabilities,
+			})
 
 			-- go to definition
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "GOTO: definition" })

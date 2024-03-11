@@ -1,3 +1,4 @@
+-- test comment
 return {
 	{
 		"williamboman/mason.nvim",

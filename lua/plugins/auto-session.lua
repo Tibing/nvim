@@ -35,7 +35,7 @@ return {
 			-- Set mapping for searching a session.
 			vim.keymap.set("n", "<Leader>sl", require("auto-session.session-lens").search_session, {
 				noremap = true,
-				desc = "Show session list",
+				desc = "Session: list",
 			}),
 		})
 	end,

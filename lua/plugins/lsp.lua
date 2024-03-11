@@ -1,7 +1,10 @@
 -- test comment
 return {
+	-- test comment
 	{
+		-- test comment
 		"williamboman/mason.nvim",
+		-- test comment
 		lazy = false,
 		config = function()
 			require("mason").setup()

@@ -1,6 +1,7 @@
 {
     "diagnostics.globals": [
         "opts",
-        "vim"
+        "vim",
+        "nvim_bufferline"
     ]
 }

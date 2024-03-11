@@ -12,6 +12,7 @@ return {
 			gs.setup({})
 
 			vim.keymap.set("n", "<leader>gp", gs.preview_hunk, { desc = "Git: preview hunk" })
+			vim.keymap.set("n", "<leader>gr", gs.reset_hunk, { desc = "Git: reset hunk" })
 		end,
 	},
 }

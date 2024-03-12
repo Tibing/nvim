@@ -12,3 +12,5 @@ vim.keymap.set("n", "<leader>|", "<C-W>v", { desc = "Win: split right", remap = 
 -- buffers
 vim.keymap.set("n", "<S-h>", "<cmd>bprevious<cr>", { desc = "Buf: prev" })
 vim.keymap.set("n", "<S-l>", "<cmd>bnext<cr>", { desc = "Buf: next" })
+
+vim.keymap.set("n", "<leader>/", "<cmd>nohlsearch<cr>", { desc = "Search: clear" })

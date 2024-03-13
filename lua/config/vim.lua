@@ -7,4 +7,5 @@ vim.cmd("set number")
 vim.cmd("set laststatus=3")
 vim.g.mapleader = " "
 vim.opt.swapfile = false
+vim.opt.cursorline = true
 vim.wo.relativenumber = true

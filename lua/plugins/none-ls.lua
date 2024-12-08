@@ -22,7 +22,9 @@ return {
 
       sources = {
         -- lua formatter
-        null_ls.builtins.formatting.stylua,
+        null_ls.builtins.formatting.stylua.with({
+          extra_args = { "--indent-type", "Spaces", "--indent-width", "2", "--convert-tabs" },
+        }),
         -- prettier daemon
         null_ls.builtins.formatting.prettierd,
         -- editorconfig checker

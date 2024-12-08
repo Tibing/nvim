@@ -5,6 +5,7 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set number")
 -- enables status line to be global
 vim.cmd("set laststatus=3")
+vim.cmd("set nowrap")
 vim.g.mapleader = " "
 vim.opt.swapfile = false
 vim.opt.cursorline = true

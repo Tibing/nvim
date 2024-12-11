@@ -18,6 +18,17 @@ return {
           hide_dotfiles = false,
         },
       },
+      -- remove icons for neotree
+      renderers = {
+        directory = {
+          { "indent" },
+          { "name" },
+        },
+        file = {
+          { "indent" },
+          { "name" },
+        },
+      },
     })
 
     vim.keymap.set("n", "<leader>n", ":Neotree filesystem toggle<CR>", { desc = "NT: toggle", silent = true })

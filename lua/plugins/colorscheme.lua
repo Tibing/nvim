@@ -1,9 +1,10 @@
 return {
-	"catppuccin/nvim",
-	lazy = false,
-	name = "catppuccin",
-	priority = 1000,
-	config = function()
-		vim.cmd.colorscheme("catppuccin")
-	end,
+  "projekt0n/github-nvim-theme",
+  lazy = false,
+  name = "catppuccin",
+  priority = 1000,
+  config = function()
+    vim.o.background = "light"
+    vim.cmd('colorscheme github_light_default')
+  end,
 }
